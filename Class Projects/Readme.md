@@ -3,9 +3,10 @@ In this assignment, you are required to build a face recognition system using Op
 
 *Submission Guidelines:*
 - Upload your code with screenshots of the working project to GitHub in the Assingment 1 Folder.
-
+- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated .
 ## Assignment 2: Object Detection
 For Assignment 2, implement an object detection model using OpenCV or any other relevant library of your choice. Capture the model's output on a video or screen recording.
 
 *Submission Guidelines:*
 - Upload your code with screenshots of the working project to GitHub in the Assingment 2 Folder.
+- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated .
