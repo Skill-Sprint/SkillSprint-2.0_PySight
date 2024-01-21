@@ -32,8 +32,8 @@ Explore the detailed timeline of the event, highlighting each day's topics and p
 | ------- | ------------------------------------------------------------------ |
 | Day 1   | - Introduction to Python<br> - Environment setup<br> - Practical implementations in Python|
 | Day 2   | - Computer Vision basics<br> - OpenCV installation<br> - Image handling<br> - Pixelating<br> - Coloring|
-| Day 3   | - Face Detection with Haar Cascades<br> - Advanced face detection techniques|
-| Day 4   | - Object Detection with OpenCV<br> - Image detection techniques<br> - Hand detection|
+| Day 3   | - Object Detection with OpenCV<br> - Image detection techniques<br> - Hand detection|
+| Day 4   | - Face Detection with Haar Cascades<br> - Advanced face detection techniques|
 | Day 5   | - Project Building<br> - Git/GitHub introduction<br> - Hosting on GitHub|
 
 Each day is designed to build on the previous one, providing a comprehensive learning experience in Python and Computer Vision. Dive into practical implementations and enhance your skills throughout the event!
