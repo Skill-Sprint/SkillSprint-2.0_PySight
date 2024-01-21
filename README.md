@@ -51,6 +51,17 @@ Each day is designed to build on the previous one, providing a comprehensive lea
 
 4. **Have Fun Learning:** Remember, PySight is not just about learning; it's about enjoying the process of unraveling the mysteries of Computer Vision. Experiment, code, and have fun while exploring the fascinating world of PySight.
 
+## Outcomes :
+
+Bootcamp participants have attained the following skills:
+
+1. Proficiency in Python Programming
+2. Hands-on experience with OpenCV
+3. Capability to develop practical applications in computer vision
+4. Understanding of fundamental computer vision concepts
+5. Familiarity with basic commands of Git and GitHub
+6. Competence in hosting projects on GitHub
+
 # Let's Code, Connect, and Create Visual Wonders! 🎨✨
 Join us on this exhilarating journey into the world of PySight! Feel free to reach out to the School of AI, ML, and Data Science team for any assistance or queries.
 
