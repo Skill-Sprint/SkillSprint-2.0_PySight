@@ -4,7 +4,7 @@ The final task is to create a comprehensive project incorporating the skills lea
 *Submission Guidelines:*
 - Develop a complete project.
 - Provide documentation and instructions for running your project.
-- Take a Screenshots of running project.
+- Take screenshots of running project.
 - Upload your code with screenshots of the working project to GitHub in the Final Task Folder, as instructed in the provided Instruction presentation.
 - Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated.
 
