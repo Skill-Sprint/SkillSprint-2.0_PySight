@@ -65,7 +65,7 @@ Bootcamp participants have attained the following skills:
 # Let's Code, Connect, and Create Visual Wonders! 🎨✨
 Join us on this exhilarating journey into the world of PySight! Feel free to reach out to the School of AI, ML, and Data Science team for any assistance or queries.
 
-[E-Mail](mailto:aischool.ic@kiet.edu), 
+[E-Mail][aischool.ic@kiet.edu], 
 [LinkedIn](https://www.linkedin.com/company/school-of-ai-ml-ds/), and 
 [Instagram](https://www.instagram.com/school_of_aimlds/)
 
