@@ -1,4 +1,5 @@
 import cv2,os,numpy as np
+import datetime as dt
 # Change the paths below to the location where these files are on your machine
 
 haar_file = 'haarcascade_frontalface_default.xml'
@@ -33,7 +34,10 @@ print('Classifier trained!')
 print('Attempting to detecting faces...')
 
 while True:
+
     ret, frame = cap.read()
+    date_time = str(dt.datetime.now())
+    frame = cv2.putText(frame, date_time, (370, 470), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
     if ret==True:
         img_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(img_gray, 1.4, 4)
