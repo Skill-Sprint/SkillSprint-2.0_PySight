@@ -1,14 +1,4 @@
-## Final Task Assignment: Full Project
-The final task is to create a comprehensive project incorporating the skills learned during the workshop. This can include a combination of face detection, object detection, and any additional features you find interesting.
-
-*Submission Guidelines:*
-- Develop a complete project.
-- Provide documentation and instructions for running your project.
-- Take screenshots of running project.
-- Upload your code with screenshots of the working project to GitHub in the Final Task Folder, as instructed in the provided Instruction presentation.
-- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated.
-
-## Submission Instructions
-Detailed instructions on how to submit your assignments and final project can be found in the presentation provided in the group.
-
-Feel free to reach out if you have any questions or need assistance. Happy coding!
+## fINAL PROJECT SUBMISSION ##
+## FACE RECOGNITION ATTENDANCE SYSTEM ##
+In this project I have cretaed an Attendance System using Face Recognition Techniques.While making this project ,I researched about Convolutional Neural Networks which helped in gaining some knowledge regarding this project.
+I used the face_recognition library while creating this project.While installing this package,I faced some difficulty as the dlib package was not getting installed on my system.To resolve this ,I took help from my mentor.
