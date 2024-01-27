@@ -1,14 +1,17 @@
-## Final Task Assignment: Full Project
-The final task is to create a comprehensive project incorporating the skills learned during the workshop. This can include a combination of face detection, object detection, and any additional features you find interesting.
+## SPOT THE DIFFERENCE GAME: Using Mouse Events
+This project is a fun game to spot differences between two pre downloaded images by drawing rectangles over them using Mouse Events. People can then view the correct answer by clicking a certain key.
 
-*Submission Guidelines:*
-- Develop a complete project.
-- Provide documentation and instructions for running your project.
-- Take screenshots of running project.
-- Upload your code with screenshots of the working project to GitHub in the Final Task Folder, as instructed in the provided Instruction presentation.
-- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated.
+*ABOUT THE PROJECT*
+In this project, I pre-downloaded 2 images and using mouse events, rectangles can be drawn over these images and also the color of the rectangles can be changed by using a color trackbar.
+If a user enters "A" then the answer window will pop-up. 
+If he/she enters"Q" then the user exits from the program.
 
-## Submission Instructions
-Detailed instructions on how to submit your assignments and final project can be found in the presentation provided in the group.
+*PRE-REQUISITES FOR THIS PROJECT*
 
-Feel free to reach out if you have any questions or need assistance. Happy coding!
+- opencv-python package
+- numpy package
+- a deep understanding of python
+- a good grasp on mouse events
+
+HOPE YOU ENJOY THE GAME!
+-----THANK YOU------
