@@ -16,7 +16,7 @@ This project is a face recognition attendance system using OpenCV and the LBPH f
 
     ```bash
     git clone https://github.com/shipraa18/SkillSprint-2.0_PySight.git
-    cd your-project
+    cd Shipra_2_CSE(AI&ML)_Final_task
     ```
 
 2. Install the required dependencies:
