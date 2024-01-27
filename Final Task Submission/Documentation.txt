@@ -1,0 +1,60 @@
+## Finger Counting Application Documentation
+
+### Purpose
+The provided Python code implements a finger counting application using the MediaPipe library for hand tracking. The application counts the number of extended fingers in a live video stream from the user's webcam.
+
+### Dependencies
+1. OpenCV (`cv2`): A computer vision library used for handling video input.
+2. MediaPipe (`mediapipe`): A library for various perception tasks, including hand tracking.
+3. Math (`math`): Standard Python math library for mathematical operations.
+4. Tkinter (`tk`): GUI library for creating the user interface.
+5. Pillow (`Image`, `ImageTk`): Python Imaging Library for image processing.
+
+### Code Structure
+The code is split into two parts: a console-based version and a GUI-based version.
+
+#### Console-based Version
+- **Import Libraries:** Import necessary libraries including OpenCV, MediaPipe, and math.
+- **Define `calculate_distance` Function:** A utility function to calculate the 3D distance between two points.
+- **Initialize MediaPipe Hands and OpenCV Video Capture:** Set up hand tracking and video capture from the webcam.
+- **Main Loop:**
+  - Read frames from the webcam.
+  - Process the frames to detect hand landmarks.
+  - Draw landmarks on the frames.
+  - Calculate distances between finger tips and MCP joints.
+  - Count the number of extended fingers based on distance thresholds.
+  - Display the finger count on the frame.
+
+#### GUI-based Version
+- **Import Additional Libraries:** Import Tkinter and Pillow for GUI development.
+- **Define `FingerCountApp` Class:** A class that encapsulates the GUI application.
+  - **Initialization:**
+    - Set up the Tkinter window.
+    - Initialize OpenCV video capture.
+    - Create labels for displaying finger count and video feed.
+  - **Update Method:**
+    - Read frames from the webcam.
+    - Process the frames to detect hand landmarks.
+    - Count the number of extended fingers based on distance thresholds.
+    - Update the GUI labels with the finger count.
+    - Update the video panel with the processed image.
+    - Schedule the next update.
+  - **Run Method:**
+    - Start the Tkinter main loop.
+
+### Hand Tracking and Finger Counting
+- The code uses MediaPipe to detect hand landmarks from the webcam feed.
+- Finger counting is based on the distances between finger tips and their respective metacarpophalangeal (MCP) joints.
+- A distance threshold is applied to determine if a finger is extended or not.
+
+### Usage
+- Run the script to start the finger counting application.
+- For the console-based version, a window will open displaying the live webcam feed with finger count information.
+- For the GUI-based version, a graphical user interface will appear with a label showing the finger count and a video panel displaying the webcam feed.
+
+### Note
+- Adjust distance thresholds in the code for finger detection based on your preferences or specific use case.
+- Press 'q' to exit the console-based version.
+
+### Conclusion
+This application demonstrates the use of hand tracking to count the number of extended fingers, providing a practical example of computer vision and gesture recognition.
