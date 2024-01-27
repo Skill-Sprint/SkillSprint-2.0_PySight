@@ -1,14 +1,55 @@
-## Final Task Assignment: Full Project
-The final task is to create a comprehensive project incorporating the skills learned during the workshop. This can include a combination of face detection, object detection, and any additional features you find interesting.
+# Face Recognition Attendance System
 
-*Submission Guidelines:*
-- Develop a complete project.
-- Provide documentation and instructions for running your project.
-- Take screenshots of running project.
-- Upload your code with screenshots of the working project to GitHub in the Final Task Folder, as instructed in the provided Instruction presentation.
-- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated.
+## Overview
 
-## Submission Instructions
-Detailed instructions on how to submit your assignments and final project can be found in the presentation provided in the group.
+This project is a face recognition attendance system using OpenCV and the LBPH face recognizer. It captures faces through the webcam, recognizes the faces, and logs attendance information to a CSV file.
 
-Feel free to reach out if you have any questions or need assistance. Happy coding!
+## Prerequisites
+
+- Python 3.x
+- OpenCV
+- NumPy
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/shipraa18/SkillSprint-2.0_PySight.git
+    cd your-project
+    ```
+
+2. Install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the main script:
+
+    ```bash
+    python face_detect.py
+    ```
+
+2. The script will use the webcam to capture faces, recognize them, and log attendance information to a CSV file.
+
+3. Press 'q' to exit the application.
+
+## Configuration
+
+- Modify the `datasets` variable in `face_detect.py` to point to the directory containing your training datasets.
+
+- Adjust the recognition threshold (`if prediction[1] < 74`) in the script based on your needs.
+
+## File Structure
+
+- `face_detect.py`: Main script for face recognition and attendance logging.
+- `haarcascade_frontalface_default.xml`: Haar cascade file for face detection.
+- `dataset/`: Directory containing training datasets for face recognition.
+
+## Acknowledgments
+
+- [OpenCV](https://opencv.org/): Open Source Computer Vision Library
+
