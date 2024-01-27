@@ -29,7 +29,7 @@ while True and not stop_button_pressed:
                 x, y, w, h = hand["bbox"]
                 totalFingers = fingers.count(1)
                 cv2.putText(frame, f"Fingers Held Up: {totalFingers}", (x - 20, y + h + 50),
-                            cv2.FONT_HERSHEY_DUPLEX, 1, (0, 0, 255), 1)
+                            cv2.FONT_HERSHEY_DUPLEX, 1.1, (0, 0, 255), 2)
         # else:
         #     points.clear()
         frame_placeholder.image(frame, channels="BGR")
