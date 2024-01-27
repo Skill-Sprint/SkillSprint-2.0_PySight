@@ -1,14 +1,8 @@
-## Final Task Assignment: Full Project
-The final task is to create a comprehensive project incorporating the skills learned during the workshop. This can include a combination of face detection, object detection, and any additional features you find interesting.
+Code to count the given number of objects
+Firstly the objects are converted to black and white.
+then,gaussian blur is added to the iamges.
+canny of the immags is created and blurred.
+A square is used to cover the object.
+to count the number of objects ,the model is trained with differnt objects.
+finally a counter is added and it displays the number of objects.
 
-*Submission Guidelines:*
-- Develop a complete project.
-- Provide documentation and instructions for running your project.
-- Take screenshots of running project.
-- Upload your code with screenshots of the working project to GitHub in the Final Task Folder, as instructed in the provided Instruction presentation.
-- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated.
-
-## Submission Instructions
-Detailed instructions on how to submit your assignments and final project can be found in the presentation provided in the group.
-
-Feel free to reach out if you have any questions or need assistance. Happy coding!
