@@ -1,13 +1,15 @@
-This is a multi-recognition attendance system build using python opencv and tkinter for GUI.Before starting, Kindly update the photos of the person you need to identify & Do update the code before using according to the photo's location and their names.
-The issues i faced regarding and while making this project were:-
-1. installation in face recognition library & dlib.
-2. interpreter problem
-3. ultralytics 
- and some minor issues with the code editor.
+## Final Task Assignment: Full Project
+The final task is to create a comprehensive project incorporating the skills learned during the workshop. This can include a combination of face detection, object detection, and any additional features you find interesting.
 
- With the help of mentor's and online resources it was easy to overcome all the obstacles.
-# to resolve the librarry issue i simply changed the interpreter from idle to anaconda which helped me in the installation of ultralytics but face recognition was still the problem. so, to resolve that i installed the visual studio build tools and added it in my environment system.
+*Submission Guidelines:*
+- Develop a complete project.
+- Provide documentation and instructions for running your project.
+- Take screenshots of running project.
+- Upload your code with screenshots of the working project to GitHub in the Final Task Folder, as instructed in the provided Instruction presentation.
+- Once the above instructions is completed raise a PR (Pull Request) , for your task to be submitted and evaluated.
 
-# There's a small GUI which will help the user to interact with code and mark the attendance of inserted people.
-HOPE IT HELP'S YOU!
- 
+## Submission Instructions
+Detailed instructions on how to submit your assignments and final project can be found in the presentation provided in the group.
+
+Feel free to reach out if you have any questions or need assistance. Happy coding!
+
