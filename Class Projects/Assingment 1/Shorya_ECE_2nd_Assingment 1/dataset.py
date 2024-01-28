@@ -2,12 +2,19 @@ import cv2
 import os
 import time
 
-haar_file = "haarcascade_frontalface_default.xml"
-datasets = "dataset/"
+haar_file = r"haarcascade_frontalface_default.xml"
+dataset = "dataset/"
 name = "shorya dubey"
-path = os.path.join(datasets, name)
+path = os.path.join(dataset, name)
+
+# Check if the 'dataset/' directory exists, create it if not
+if not os.path.exists(dataset):
+    os.mkdir(dataset)
+
+# Check if the path exists, create it if not
 if not os.path.exists(path):
     os.mkdir(path)
+
 face_cascade = cv2.CascadeClassifier(haar_file)
 cap = cv2.VideoCapture(0)
 print("Web cam is open", cap.isOpened())
@@ -26,7 +33,7 @@ while count < 201:
             cv2.imwrite("%s/%s.png" % (path, count), face_resize)
         count += 1
         cv2.imshow("Face Detection", frame)
-        if cv2.waitKey(1) == ord("e"):
+        if cv2.waitKey(1) == 27:  # Check for the 'Esc' key
             break
 
 print("Your face has been captured")
