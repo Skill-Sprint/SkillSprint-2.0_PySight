@@ -2,8 +2,8 @@ import cv2
 import os
 import time
 
-haar_file = 'xml.xml'
-datasets = "C:/Users/jujjw/PycharmProjects/face_detect/dataset"
+#haar_file = 'xml.xml'
+#datasets = "C:/Users/jujjw/PycharmProjects/face_detect/dataset"
 name = "UJJWAL JAIN"
 
 path = os.path.join(datasets,name)
