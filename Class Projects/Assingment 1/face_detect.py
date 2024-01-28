@@ -2,8 +2,8 @@ import cv2,os,numpy as np
 import datetime as dt
 # Change the paths below to the location where these files are on your machine
 
-haar_file = 'xml.xml'
-datasets = "C:/Users/jujjw/PycharmProjects/face_detect/dataset"
+#haar_file = 'xml.xml'
+#datasets = "C:/Users/jujjw/PycharmProjects/face_detect/dataset"
 
 print('Training classifier...')
 
