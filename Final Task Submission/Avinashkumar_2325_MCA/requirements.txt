@@ -1,8 +1,0 @@
-streamlit
-st_pages
-opencv-python
-opencv-contrib-python
-pandas
-numpy
-datetime
-cvzone
